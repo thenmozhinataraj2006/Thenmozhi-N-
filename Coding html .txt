@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thenmozhi N - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h1 class="logo">Thenmozhi N</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm Thenmozhi 👋</h2>
+      <p>Aspiring Web Developer | BCA Student | Passionate about IT</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Thenmozhi N, currently pursuing BCA (2024-2027) at Sri Vasavi College (SFW), Bharathiar University. 
+    I am learning HTML, CSS, and JavaScript, and I am passionate about creating clean and functional websites.</p>
+    <ul>
+      <li><strong>Skills:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Field:</strong> IT & Web Development</li>
+    </ul>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="portfolio-container">
+      <div class="portfolio-item">
+        <h3>Basic HTML Portfolio</h3>
+        <p>A simple portfolio page built with HTML.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Services</h2>
+    <p>I provide basic web development pages using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:thenmozhinataraj2006@gmail.com">thenmozhinataraj2006@gmail.com</a></p>
+    <p>Phone: <a href="tel:+919363994660">9363994660</a></p>
+    <p>Location: Erode</p>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Thenmozhi N. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
